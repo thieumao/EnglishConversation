@@ -8,13 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		CFBB1AFF21D463F4007CF230 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1AFE21D463F4007CF230 /* AppDelegate.swift */; };
-		CFBB1B0121D463F4007CF230 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B0021D463F4007CF230 /* ViewController.swift */; };
+		CFBB1B0121D463F4007CF230 /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B0021D463F4007CF230 /* StudyViewController.swift */; };
 		CFBB1B0421D463F4007CF230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBB1B0221D463F4007CF230 /* Main.storyboard */; };
 		CFBB1B0721D463F4007CF230 /* EnglishConversation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B0521D463F4007CF230 /* EnglishConversation.xcdatamodeld */; };
 		CFBB1B0921D463F5007CF230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBB1B0821D463F5007CF230 /* Assets.xcassets */; };
 		CFBB1B0C21D463F5007CF230 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBB1B0A21D463F5007CF230 /* LaunchScreen.storyboard */; };
 		CFBB1B1721D463F5007CF230 /* EnglishConversationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B1621D463F5007CF230 /* EnglishConversationTests.swift */; };
 		CFBB1B2221D463F5007CF230 /* EnglishConversationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B2121D463F5007CF230 /* EnglishConversationUITests.swift */; };
+		CFBB1B3E21D469FF007CF230 /* Step1ListenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B3C21D469FF007CF230 /* Step1ListenTableViewCell.swift */; };
+		CFBB1B3F21D469FF007CF230 /* Step1ListenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBB1B3D21D469FF007CF230 /* Step1ListenTableViewCell.xib */; };
+		CFBB1B4221D46A15007CF230 /* GuideForStep1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B4021D46A15007CF230 /* GuideForStep1TableViewCell.swift */; };
+		CFBB1B4321D46A15007CF230 /* GuideForStep1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBB1B4121D46A15007CF230 /* GuideForStep1TableViewCell.xib */; };
+		CFBB1B4621D46A26007CF230 /* Step2QuizTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B4421D46A26007CF230 /* Step2QuizTableViewCell.swift */; };
+		CFBB1B4721D46A26007CF230 /* Step2QuizTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBB1B4521D46A26007CF230 /* Step2QuizTableViewCell.xib */; };
+		CFBB1B4A21D46A3F007CF230 /* QuestionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B4821D46A3F007CF230 /* QuestionsTableViewCell.swift */; };
+		CFBB1B4B21D46A3F007CF230 /* QuestionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBB1B4921D46A3F007CF230 /* QuestionsTableViewCell.xib */; };
+		CFBB1B4E21D46A55007CF230 /* CheckAnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B4C21D46A55007CF230 /* CheckAnswerTableViewCell.swift */; };
+		CFBB1B4F21D46A55007CF230 /* CheckAnswerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBB1B4D21D46A55007CF230 /* CheckAnswerTableViewCell.xib */; };
+		CFBB1B5221D46A67007CF230 /* ViewAnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B5021D46A67007CF230 /* ViewAnswerTableViewCell.swift */; };
+		CFBB1B5321D46A67007CF230 /* ViewAnswerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBB1B5121D46A67007CF230 /* ViewAnswerTableViewCell.xib */; };
+		CFBB1B5621D46A7D007CF230 /* GuideForStep2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B5421D46A7D007CF230 /* GuideForStep2TableViewCell.swift */; };
+		CFBB1B5721D46A7D007CF230 /* GuideForStep2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBB1B5521D46A7D007CF230 /* GuideForStep2TableViewCell.xib */; };
+		CFBB1B5A21D46A91007CF230 /* Step3ShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B5821D46A91007CF230 /* Step3ShowTableViewCell.swift */; };
+		CFBB1B5B21D46A91007CF230 /* Step3ShowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBB1B5921D46A91007CF230 /* Step3ShowTableViewCell.xib */; };
+		CFBB1B5E21D46AA4007CF230 /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B5C21D46AA4007CF230 /* ConversationTableViewCell.swift */; };
+		CFBB1B5F21D46AA4007CF230 /* ConversationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBB1B5D21D46AA4007CF230 /* ConversationTableViewCell.xib */; };
+		CFBB1B6221D46AB5007CF230 /* GuideForStep3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB1B6021D46AB5007CF230 /* GuideForStep3TableViewCell.swift */; };
+		CFBB1B6321D46AB5007CF230 /* GuideForStep3TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBB1B6121D46AB5007CF230 /* GuideForStep3TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +57,7 @@
 /* Begin PBXFileReference section */
 		CFBB1AFB21D463F4007CF230 /* EnglishConversation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishConversation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBB1AFE21D463F4007CF230 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFBB1B0021D463F4007CF230 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFBB1B0021D463F4007CF230 /* StudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
 		CFBB1B0321D463F4007CF230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFBB1B0621D463F4007CF230 /* EnglishConversation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EnglishConversation.xcdatamodel; sourceTree = "<group>"; };
 		CFBB1B0821D463F5007CF230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +69,26 @@
 		CFBB1B1D21D463F5007CF230 /* EnglishConversationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnglishConversationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBB1B2121D463F5007CF230 /* EnglishConversationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishConversationUITests.swift; sourceTree = "<group>"; };
 		CFBB1B2321D463F5007CF230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBB1B3C21D469FF007CF230 /* Step1ListenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1ListenTableViewCell.swift; sourceTree = "<group>"; };
+		CFBB1B3D21D469FF007CF230 /* Step1ListenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Step1ListenTableViewCell.xib; sourceTree = "<group>"; };
+		CFBB1B4021D46A15007CF230 /* GuideForStep1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideForStep1TableViewCell.swift; sourceTree = "<group>"; };
+		CFBB1B4121D46A15007CF230 /* GuideForStep1TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuideForStep1TableViewCell.xib; sourceTree = "<group>"; };
+		CFBB1B4421D46A26007CF230 /* Step2QuizTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2QuizTableViewCell.swift; sourceTree = "<group>"; };
+		CFBB1B4521D46A26007CF230 /* Step2QuizTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Step2QuizTableViewCell.xib; sourceTree = "<group>"; };
+		CFBB1B4821D46A3F007CF230 /* QuestionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewCell.swift; sourceTree = "<group>"; };
+		CFBB1B4921D46A3F007CF230 /* QuestionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionsTableViewCell.xib; sourceTree = "<group>"; };
+		CFBB1B4C21D46A55007CF230 /* CheckAnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAnswerTableViewCell.swift; sourceTree = "<group>"; };
+		CFBB1B4D21D46A55007CF230 /* CheckAnswerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckAnswerTableViewCell.xib; sourceTree = "<group>"; };
+		CFBB1B5021D46A67007CF230 /* ViewAnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnswerTableViewCell.swift; sourceTree = "<group>"; };
+		CFBB1B5121D46A67007CF230 /* ViewAnswerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewAnswerTableViewCell.xib; sourceTree = "<group>"; };
+		CFBB1B5421D46A7D007CF230 /* GuideForStep2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideForStep2TableViewCell.swift; sourceTree = "<group>"; };
+		CFBB1B5521D46A7D007CF230 /* GuideForStep2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuideForStep2TableViewCell.xib; sourceTree = "<group>"; };
+		CFBB1B5821D46A91007CF230 /* Step3ShowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step3ShowTableViewCell.swift; sourceTree = "<group>"; };
+		CFBB1B5921D46A91007CF230 /* Step3ShowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Step3ShowTableViewCell.xib; sourceTree = "<group>"; };
+		CFBB1B5C21D46AA4007CF230 /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
+		CFBB1B5D21D46AA4007CF230 /* ConversationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversationTableViewCell.xib; sourceTree = "<group>"; };
+		CFBB1B6021D46AB5007CF230 /* GuideForStep3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideForStep3TableViewCell.swift; sourceTree = "<group>"; };
+		CFBB1B6121D46AB5007CF230 /* GuideForStep3TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuideForStep3TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +139,8 @@
 		CFBB1AFD21D463F4007CF230 /* EnglishConversation */ = {
 			isa = PBXGroup;
 			children = (
+				CFBB1B2F21D4686F007CF230 /* Screens */,
 				CFBB1AFE21D463F4007CF230 /* AppDelegate.swift */,
-				CFBB1B0021D463F4007CF230 /* ViewController.swift */,
 				CFBB1B0221D463F4007CF230 /* Main.storyboard */,
 				CFBB1B0821D463F5007CF230 /* Assets.xcassets */,
 				CFBB1B0A21D463F5007CF230 /* LaunchScreen.storyboard */,
@@ -126,6 +166,130 @@
 				CFBB1B2321D463F5007CF230 /* Info.plist */,
 			);
 			path = EnglishConversationUITests;
+			sourceTree = "<group>";
+		};
+		CFBB1B2F21D4686F007CF230 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB1B3021D46878007CF230 /* Study */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CFBB1B3021D46878007CF230 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB1B3221D46919007CF230 /* Cells */,
+				CFBB1B0021D463F4007CF230 /* StudyViewController.swift */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		CFBB1B3121D46901007CF230 /* GuideForStep3 */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB1B6021D46AB5007CF230 /* GuideForStep3TableViewCell.swift */,
+				CFBB1B6121D46AB5007CF230 /* GuideForStep3TableViewCell.xib */,
+			);
+			path = GuideForStep3;
+			sourceTree = "<group>";
+		};
+		CFBB1B3221D46919007CF230 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB1B3B21D46990007CF230 /* Step1Listen */,
+				CFBB1B3A21D46985007CF230 /* GuideForStep1 */,
+				CFBB1B3921D46978007CF230 /* Step2Quiz */,
+				CFBB1B3821D46971007CF230 /* Questions */,
+				CFBB1B3721D4696A007CF230 /* CheckAnswer */,
+				CFBB1B3621D4695E007CF230 /* ViewAnswers */,
+				CFBB1B3521D46955007CF230 /* GuideForStep2 */,
+				CFBB1B3421D4694A007CF230 /* Step3Show */,
+				CFBB1B3321D46924007CF230 /* Conversation */,
+				CFBB1B3121D46901007CF230 /* GuideForStep3 */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CFBB1B3321D46924007CF230 /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB1B5C21D46AA4007CF230 /* ConversationTableViewCell.swift */,
+				CFBB1B5D21D46AA4007CF230 /* ConversationTableViewCell.xib */,
+			);
+			path = Conversation;
+			sourceTree = "<group>";
+		};
+		CFBB1B3421D4694A007CF230 /* Step3Show */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB1B5821D46A91007CF230 /* Step3ShowTableViewCell.swift */,
+				CFBB1B5921D46A91007CF230 /* Step3ShowTableViewCell.xib */,
+			);
+			path = Step3Show;
+			sourceTree = "<group>";
+		};
+		CFBB1B3521D46955007CF230 /* GuideForStep2 */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB1B5421D46A7D007CF230 /* GuideForStep2TableViewCell.swift */,
+				CFBB1B5521D46A7D007CF230 /* GuideForStep2TableViewCell.xib */,
+			);
+			path = GuideForStep2;
+			sourceTree = "<group>";
+		};
+		CFBB1B3621D4695E007CF230 /* ViewAnswers */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB1B5021D46A67007CF230 /* ViewAnswerTableViewCell.swift */,
+				CFBB1B5121D46A67007CF230 /* ViewAnswerTableViewCell.xib */,
+			);
+			path = ViewAnswers;
+			sourceTree = "<group>";
+		};
+		CFBB1B3721D4696A007CF230 /* CheckAnswer */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB1B4C21D46A55007CF230 /* CheckAnswerTableViewCell.swift */,
+				CFBB1B4D21D46A55007CF230 /* CheckAnswerTableViewCell.xib */,
+			);
+			path = CheckAnswer;
+			sourceTree = "<group>";
+		};
+		CFBB1B3821D46971007CF230 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB1B4821D46A3F007CF230 /* QuestionsTableViewCell.swift */,
+				CFBB1B4921D46A3F007CF230 /* QuestionsTableViewCell.xib */,
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
+		CFBB1B3921D46978007CF230 /* Step2Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB1B4421D46A26007CF230 /* Step2QuizTableViewCell.swift */,
+				CFBB1B4521D46A26007CF230 /* Step2QuizTableViewCell.xib */,
+			);
+			path = Step2Quiz;
+			sourceTree = "<group>";
+		};
+		CFBB1B3A21D46985007CF230 /* GuideForStep1 */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB1B4021D46A15007CF230 /* GuideForStep1TableViewCell.swift */,
+				CFBB1B4121D46A15007CF230 /* GuideForStep1TableViewCell.xib */,
+			);
+			path = GuideForStep1;
+			sourceTree = "<group>";
+		};
+		CFBB1B3B21D46990007CF230 /* Step1Listen */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB1B3C21D469FF007CF230 /* Step1ListenTableViewCell.swift */,
+				CFBB1B3D21D469FF007CF230 /* Step1ListenTableViewCell.xib */,
+			);
+			path = Step1Listen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +396,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFBB1B5F21D46AA4007CF230 /* ConversationTableViewCell.xib in Resources */,
+				CFBB1B5B21D46A91007CF230 /* Step3ShowTableViewCell.xib in Resources */,
+				CFBB1B6321D46AB5007CF230 /* GuideForStep3TableViewCell.xib in Resources */,
+				CFBB1B4B21D46A3F007CF230 /* QuestionsTableViewCell.xib in Resources */,
+				CFBB1B5321D46A67007CF230 /* ViewAnswerTableViewCell.xib in Resources */,
+				CFBB1B3F21D469FF007CF230 /* Step1ListenTableViewCell.xib in Resources */,
+				CFBB1B5721D46A7D007CF230 /* GuideForStep2TableViewCell.xib in Resources */,
+				CFBB1B4721D46A26007CF230 /* Step2QuizTableViewCell.xib in Resources */,
 				CFBB1B0C21D463F5007CF230 /* LaunchScreen.storyboard in Resources */,
 				CFBB1B0921D463F5007CF230 /* Assets.xcassets in Resources */,
 				CFBB1B0421D463F4007CF230 /* Main.storyboard in Resources */,
+				CFBB1B4F21D46A55007CF230 /* CheckAnswerTableViewCell.xib in Resources */,
+				CFBB1B4321D46A15007CF230 /* GuideForStep1TableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +433,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFBB1B3E21D469FF007CF230 /* Step1ListenTableViewCell.swift in Sources */,
+				CFBB1B4221D46A15007CF230 /* GuideForStep1TableViewCell.swift in Sources */,
+				CFBB1B4E21D46A55007CF230 /* CheckAnswerTableViewCell.swift in Sources */,
 				CFBB1B0721D463F4007CF230 /* EnglishConversation.xcdatamodeld in Sources */,
-				CFBB1B0121D463F4007CF230 /* ViewController.swift in Sources */,
+				CFBB1B0121D463F4007CF230 /* StudyViewController.swift in Sources */,
 				CFBB1AFF21D463F4007CF230 /* AppDelegate.swift in Sources */,
+				CFBB1B5621D46A7D007CF230 /* GuideForStep2TableViewCell.swift in Sources */,
+				CFBB1B4A21D46A3F007CF230 /* QuestionsTableViewCell.swift in Sources */,
+				CFBB1B5E21D46AA4007CF230 /* ConversationTableViewCell.swift in Sources */,
+				CFBB1B5A21D46A91007CF230 /* Step3ShowTableViewCell.swift in Sources */,
+				CFBB1B6221D46AB5007CF230 /* GuideForStep3TableViewCell.swift in Sources */,
+				CFBB1B4621D46A26007CF230 /* Step2QuizTableViewCell.swift in Sources */,
+				CFBB1B5221D46A67007CF230 /* ViewAnswerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
