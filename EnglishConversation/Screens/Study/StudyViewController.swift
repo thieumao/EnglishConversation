@@ -237,6 +237,8 @@ extension StudyViewController: UITableViewDelegate, UITableViewDataSource {
     private func setupStudyTableView() {
         studyTableView.delegate = self
         studyTableView.dataSource = self
+        studyTableView.rowHeight = UITableView.automaticDimension
+        studyTableView.estimatedRowHeight = UITableView.automaticDimension
     }
 }
 

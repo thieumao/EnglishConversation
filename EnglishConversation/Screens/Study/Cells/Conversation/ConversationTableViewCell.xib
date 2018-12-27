@@ -12,26 +12,46 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ConversationTableViewCell" customModule="EnglishConversation" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="388" id="KGk-i7-Jjw" customClass="ConversationTableViewCell" customModule="EnglishConversation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="987" height="388"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="987" height="387.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conversation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4K-BX-g3n">
-                        <rect key="frame" x="16" y="11.5" width="101" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4K-BX-g3n">
+                        <rect key="frame" x="16" y="4" width="955" height="379.5"/>
+                        <mutableString key="text">A: "Yo Matt. How goes it man?"
+B: "Pretty good. What have you been up to?"
+A: "You know that chick in psychology class?"
+B: "Yeah. You only talk about her every other day."
+A: "I can't get her out of my mind. She is damn fine."
+B: "Why don't you go talk to her then?"
+A: "I think she is out of my league."
+B: "Chicken. Somebody is only out of your league if you think so. What do you see in her anyway? She is a little chubby dude."
+A: "She is not. She has a nice figure. And she has such a pretty face."
+B: "Whatever. If you think so."
+A: "You like skinny girls or something?"
+B: "I like normal girls without any flab hanging out."
+A: "Now you're exaggerating you freak."
+B: "Seriously, I like a girl who is fit and likes to exercise."
+A: "How about personality?"
+B: "It doesn't matter until you are thinking about marriage and I'm not thinking about that yet."
+A: "Well, I'm looking so I don't care that much about figure. As long as she is nice and sweet." </mutableString>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="o4K-BX-g3n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Y5c-zz-Li4"/>
-                    <constraint firstItem="o4K-BX-g3n" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="f77-q5-tjV"/>
+                    <constraint firstAttribute="bottom" secondItem="o4K-BX-g3n" secondAttribute="bottom" constant="4" id="46j-MU-S2h"/>
+                    <constraint firstItem="o4K-BX-g3n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="5aH-cO-8pf"/>
+                    <constraint firstItem="o4K-BX-g3n" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="cZt-YD-xrH"/>
+                    <constraint firstAttribute="trailing" secondItem="o4K-BX-g3n" secondAttribute="trailing" constant="16" id="x42-M7-IBQ"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="586.39999999999998" y="203.29835082458771"/>
         </tableViewCell>
     </objects>
 </document>

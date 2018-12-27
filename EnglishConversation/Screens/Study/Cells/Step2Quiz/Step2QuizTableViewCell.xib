@@ -32,6 +32,9 @@
                                 <rect key="frame" x="82.5" y="7" width="162" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quiz - View Questions"/>
+                                <connections>
+                                    <action selector="showStep2Action:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="kAC-zb-NnS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

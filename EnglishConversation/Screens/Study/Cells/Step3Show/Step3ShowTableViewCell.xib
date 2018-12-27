@@ -32,6 +32,9 @@
                                 <rect key="frame" x="83" y="7" width="195" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Show Conversation Dialog "/>
+                                <connections>
+                                    <action selector="showConversationDialogAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="x3L-a3-VNp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

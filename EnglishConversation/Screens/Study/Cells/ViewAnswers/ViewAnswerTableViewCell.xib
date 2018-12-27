@@ -19,16 +19,17 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View Answers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAS-qf-VCh">
-                        <rect key="frame" x="16" y="11.5" width="106.5" height="21"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYh-Ff-Iem">
+                        <rect key="frame" x="16" y="7" width="96" height="30"/>
+                        <state key="normal" title="View Answers"/>
+                        <connections>
+                            <action selector="viewAswersAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="pyq-WA-nRZ"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="CAS-qf-VCh" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Tq4-rk-sIH"/>
-                    <constraint firstItem="CAS-qf-VCh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="f7n-Y4-lE5"/>
+                    <constraint firstItem="jYh-Ff-Iem" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="7oC-gz-alx"/>
+                    <constraint firstItem="jYh-Ff-Iem" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="sZP-x4-4IC"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

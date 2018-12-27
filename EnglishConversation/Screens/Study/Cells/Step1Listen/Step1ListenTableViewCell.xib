@@ -29,15 +29,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSU-Gf-cmg">
-                                <rect key="frame" x="80" y="7" width="114" height="30"/>
+                                <rect key="frame" x="80" y="16" width="114" height="11.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Listen to Dialog"/>
+                                <connections>
+                                    <action selector="listenToDialogAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="9yH-44-8Zb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="sSU-Gf-cmg" firstAttribute="centerY" secondItem="Huj-Ut-m3c" secondAttribute="centerY" id="FQj-tK-iKJ"/>
                             <constraint firstItem="VGu-8v-fu1" firstAttribute="centerY" secondItem="Huj-Ut-m3c" secondAttribute="centerY" id="UY9-82-9c2"/>
+                            <constraint firstItem="sSU-Gf-cmg" firstAttribute="top" secondItem="Huj-Ut-m3c" secondAttribute="top" constant="16" id="ayo-f1-CV2"/>
                             <constraint firstItem="VGu-8v-fu1" firstAttribute="leading" secondItem="Huj-Ut-m3c" secondAttribute="leading" constant="16" id="f59-z1-q9l"/>
                             <constraint firstItem="sSU-Gf-cmg" firstAttribute="leading" secondItem="VGu-8v-fu1" secondAttribute="trailing" constant="8" id="pYO-8c-BHO"/>
                         </constraints>

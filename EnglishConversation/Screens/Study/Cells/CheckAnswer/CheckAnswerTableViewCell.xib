@@ -19,16 +19,17 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check Answer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Van-1F-0PP">
-                        <rect key="frame" x="16" y="11.5" width="110" height="21"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ikT-vV-FHO">
+                        <rect key="frame" x="16" y="7" width="99" height="30"/>
+                        <state key="normal" title="Check Answer"/>
+                        <connections>
+                            <action selector="checkAnswerAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="8j8-mg-6KH"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="Van-1F-0PP" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="IHN-en-IS0"/>
-                    <constraint firstItem="Van-1F-0PP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="VZQ-cC-hM6"/>
+                    <constraint firstItem="ikT-vV-FHO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="fwR-iy-djw"/>
+                    <constraint firstItem="ikT-vV-FHO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="z0t-8J-vkP"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
